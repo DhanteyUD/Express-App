@@ -2,9 +2,10 @@
 
 > Clone this repository to your local machine to use Express...
 
+---
+
 ### Deploying Express with Heroku
 
-Deploying to **Heroku**
 
 ```
 1. cd <dir>
