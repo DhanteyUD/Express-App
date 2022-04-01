@@ -26,6 +26,3 @@
 
 ```
 
-Link to Heroku app
-
-> https://pacific-atoll-80385.herokuapp.com/
