@@ -31,7 +31,7 @@
 
 ```
 
-### Deploying Express with Heroku
+## Deploying Express with Heroku
 
 
 ```
