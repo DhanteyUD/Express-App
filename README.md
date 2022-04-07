@@ -58,5 +58,7 @@ Clone this repository to your local machine to use Express...
 
 8. git push heroku master/main
 
+9. heroku apps:rename newname (To rename app)
+
 ```
 
