@@ -1,34 +1,41 @@
 # Express API Template
 
-> Clone this repository to your local machine to use Express...
+Clone this repository to your local machine to use Express...
 
 ---
 
 ## Containerizing Express with Docker
 
+
+1. On vs code, hold **command + shift + p** to show command bar
+
+2. Search for Docker on pop-up tool bar and select: 
+``` 
+ Docker: Add Docker Files to Workspace
 ```
-1. On vs code, enter "command + shift + p" to show all commands
+3. Select **Node.js** Application Platform 
 
-2. Search for Docker on pop-up tool bar and select "Docker: Add Docker Files to Workspace"
+4. Choose **Package.json** file
 
-3. Select Application Platform (Node.js)
+5. Choose default port or input alternative:
+```
+ 3000
+```
+6. Select **No** on Include optional Docker Compose files?
 
-4. Choose Package.json file
+7. **Dockerfile** and **.dockerignore** files would be created (Edit as see fit)
 
-5. Choose default port or input alternative
-
-6. Select NO - Include optional Docker Compose files?
-
-7. Dockerfile and .dockerignore files would be created 
-
-8. Edit as see fit
-
-9. On terminal, enter "docker build -t <file name/name> ."
-
-10. docker run -p 4000:3000 <file name/name>
-
-11. Run your docker container
-
+8. On terminal, enter below to build:
+``` 
+ docker build -t accountName/fileName .
+```
+9. On terminal, enter below to run image as container:
+``` 
+ docker run -p 4000:3000 accountName/fileName>
+```
+10. To rename image:
+```  
+ docker image tag #imageId accountName/newFileName:latest
 ```
 
 ## Deploying Express with Heroku
@@ -49,7 +56,7 @@
 
 7. heroku create
 
-8. git push heroku master
+8. git push heroku master/main
 
 ```
 
