@@ -7,23 +7,23 @@ Clone this repository to your local machine to use Express...
 ## Containerizing Express with Docker
 
 
-1. On vs code, hold **command + shift + p** to show command bar
+1. On vs code, hold `command + shift + p` to show command bar
 
 2. Search for Docker on pop-up tool bar and select: 
 ``` 
  Docker: Add Docker Files to Workspace
 ```
-3. Select **Node.js** Application Platform 
+3. Select `Node.js` Application Platform 
 
-4. Choose **Package.json** file
+4. Choose `Package.json` file
 
 5. Choose default port or input alternative:
 ```
  3000
 ```
-6. Select **No** on Include optional Docker Compose files?
+6. Select `No` on Include optional Docker Compose files?
 
-7. **Dockerfile** and **.dockerignore** files would be created (Edit as see fit)
+7. `Dockerfile` and `.dockerignore` files would be created (Edit as see fit)
 
 8. On terminal, enter below to build:
 ``` 
