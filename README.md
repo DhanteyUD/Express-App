@@ -41,6 +41,7 @@ Clone this repository to your local machine to use Express...
 Extra:
 
 > To list all running connections on a port: `sudo lsof -i :<PORT>`
+> 
 > To kill all running connections on a port: `sudo kill -9 <PID>`
 
 ## Deploying Express with Heroku
